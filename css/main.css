@@ -1,0 +1,67 @@
+.transition,
+.transition:hover, 
+.transitivion:focus{
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition:  all 150ms ease-in-out; 
+    -o-transition: all 150ms ease-in-out; 
+    transition: all 150ms ease-in-out;
+}
+
+html, body {
+    position: relative; 
+    background-color: #e5e9ec;
+    height: 100%;
+}
+
+nav.navbar-fixed-top{
+    background-color: #fff;
+    border: none; 
+}
+
+nav .top-left-menu {
+    background-color: #252830;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    height: auto; 
+}
+
+.navbar-brand h1{
+    margin: 0; 
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+}
+
+nav .header-refresh{
+    margin-left: auto;
+    color: #fff;
+}
+
+nav form#search{
+    padding: 0.9em;
+}
+
+nav form#search .input-group{
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+}
+
+nav form#search .input-group form-control{
+    border-radius: 0.25em; 
+    border: none;
+    width: 70%;
+    padding-left:1.9em;
+    background-color: #f3f3f3;
+    box-shadow: none;
+}
+
+nav form#search .input-group form-contrl:focus{
+    z-index:99;
+    left: 1.7em;
+}
